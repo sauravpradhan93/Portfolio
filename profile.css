@@ -1,0 +1,85 @@
+body{
+	margin:0 auto;
+	background-image: url(code.jpg);
+background-size: 100%;
+}
+.container-fluid{
+height:450px;
+width:400px;
+background-color:rgba(102,153,255,0.5);
+text-align:center;
+margin-top: 120px;
+margin-left: 470px;
+border-radius:6px;
+
+}
+.container-fluid img{
+	border-radius: 50%;
+	margin-top:-50px;
+	height: 160px;
+	width: 160px;
+}
+.internet{
+	margin-top: 150px;
+}
+h2:hover{
+	transform: scale(1.5);
+}
+h3:hover{
+	transform: scale(1.5);
+}
+.social i{
+cursor: pointer;
+display: inline-block;
+position: relative;
+transition: 0.5s;
+}
+.social i:after{
+	position: absolute;
+	opacity: 0;
+	top:0;
+transition: 0.5s;
+}
+.social:hover i{
+	padding-right:20px;
+ -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+}
+
+.card{
+	
+	height:50px;
+	width:100px;
+	
+	margin-left: 150px;
+	transition: all 0.6s ease;
+	transform-style: preserve-3d;
+	left:100px;
+	text-align: center;
+
+
+}
+
+.back{
+	transform: rotateY(180deg);
+}
+.card:hover{
+	transform: rotateY(180deg);
+ 
+}
+.front, .back{
+position: absolute;
+width:100px;
+height: 100px;
+ top:0;
+ left:0;
+ backface-visibility: hidden;
+ }
+
+ @
